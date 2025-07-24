@@ -1,0 +1,147 @@
+#about{
+  background-color: #f7f8fa;
+  
+} 
+
+
+.about-heading {
+ 
+  text-align: left;
+
+
+  font-family: 'Sora';
+  letter-spacing: 0.2px;
+  font-size: 29px;
+  font-weight: 600;
+  color: #343f52;
+}
+
+.highlight {
+  color: #ff7300;
+  letter-spacing: 0.2px;
+}
+
+.highlight-bold {
+  color: #ff7300;
+  font-weight: bold;
+}
+
+.about-description {
+  
+  margin-top: 15px;
+text-align: justify;
+   font-family: 'Readex Pro';
+  color: #666;
+  font-weight: 400;
+  font-size: 16px;
+letter-spacing: 0.4px;
+  line-height: 2;
+}
+
+.about-points {
+  font-family: 'Readex Pro';
+  color: #666;
+  font-weight: 400;
+  font-size: 16px;
+letter-spacing: 0.4px;
+
+  margin-top: 20px;
+}
+
+.highlight-quote {
+  /* background-color: #fff5eb; */
+  background-color: transparent;
+  border-left: 8px solid #ff7300;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  margin-top: 10px;
+
+
+
+  font-family: 'Readex Pro', sans-serif;
+  font-weight: 500;
+  margin-top: 16px;
+  letter-spacing: 0.4px;
+
+  border-top:2px solid #ff7300;
+   border-bottom:2px solid #ff7300;
+    border-right:2px solid #ff7300;
+  color: #ff7300;
+   animation: pulseBorder 1.5s infinite;
+  font-size: 16px;
+}
+
+@keyframes pulseBorder {
+  0% {
+    box-shadow: 0 0 0px #ff7300;
+  }
+  50% {
+    box-shadow: 0 0 12px #ff7300;
+  }
+  100% {
+    box-shadow: 0 0 0px #ff7300;
+  }
+}
+
+.main-quote {
+  
+ 
+  
+  margin: 0;
+  
+
+
+  font-family: 'Sora';
+  letter-spacing: 0.2px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #343f52;
+}
+
+.sub-tagline {
+
+
+
+cursor: pointer;
+   font-family: 'Readex Pro';
+ color:#708dff;
+  font-weight: 500;
+  font-size: 16px;
+letter-spacing: 0.4px;
+text-decoration: underline;
+
+}
+/* .sub-tagline:hover{
+    color:#343f52;
+    
+} */
+
+/* Responsive Styles */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  #about p,
+  #about li {
+    font-size: 20px;
+  }
+
+  #about h2 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  #about ul {
+    padding-left: 0;
+  }
+
+  #best {
+    text-align: center;
+  }
+  
+}
+
+@media (max-width: 767.98px) {
+  .about-left-column {
+    margin-bottom: 30px;
+  }
+ 
+}
