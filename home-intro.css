@@ -1,0 +1,81 @@
+.intro-section {
+  height: auto;
+  display: flex;
+  align-items: center;
+  /* background-color: #fff5eb; */
+  background: linear-gradient(90deg, #f8ebf9, #ffffff);
+padding-top: 20px;
+ padding-bottom: 52px;
+ 
+
+}
+
+.intro-text {
+  
+  text-align: left;
+}
+
+.intro-text .ubuntu {
+  font-family: 'Sora';
+  letter-spacing: 0.2px;
+  font-size: 29px;
+  font-weight: 600;
+  color: #343f52;
+  margin-bottom: 10px;
+}
+
+.intro-text .poppins {
+  font-family: 'Readex Pro';
+  color: #666;
+  font-weight: 400;
+  font-size: 16px;
+/* letter-spacing: 0.4px; */
+  line-height: 2;
+ 
+  }
+
+.intro-image img {
+  margin-top: -10px;
+  width: 85%;
+  height: 85%;
+  object-fit: cover;
+}
+
+#crew{
+  font-family: 'Readex Pro', sans-serif;
+  font-weight: 500;
+  margin-top: 18px;
+  letter-spacing: 0.4px;
+  border:2px solid #fd0ca4;
+  background-color: #fff;
+  color: #fd0ca4;
+  font-size: 16px;
+
+
+  
+}
+#crew:hover {
+  background-color: #66597c;
+  color: #fff;
+  transition: background-color 0.4s ease;
+  border: 2px solid #66597c;
+}
+/* Responsive */
+@media (max-width: 768px) {
+  .intro-text {
+    text-align: center;
+  }
+
+  .intro-section .ubuntu {
+    margin-top: 20px;
+  }
+
+#crew{
+  margin-top: 10px;
+}
+
+  .intro-image {
+    text-align: center;
+    padding-top: 10px;
+  }
+}

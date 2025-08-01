@@ -1,0 +1,48 @@
+#values {
+  background-color: #f8ebf9;
+  padding-bottom: 15px;
+}
+
+.values-title {
+  font-family: 'Sora', sans-serif;
+  font-size: 29px;
+  font-weight: 600;
+  color: #343f52;
+  letter-spacing: 0.2px;
+  text-align: left;
+}
+
+.values-title span {
+  color: #fd0ca4;
+   /* text-shadow:
+    -0.5px -0.5px 0 #666,
+     0.5px -0.5px 0 #666,
+    -0.5px  0.5px 0 #666,
+     0.5px  0.5px 0 #666; */
+       /* -webkit-text-stroke: 0.4px #666; */
+     letter-spacing: 0.4px;
+}
+
+.values-desc {
+  font-family: 'Readex Pro', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #666;
+  letter-spacing: 0.4px;
+  line-height: 2;
+  text-align: justify;
+  margin-top: 15px;
+}
+
+/* Value Card */
+
+
+.value-icon-box i {
+  font-size: 29px;
+  color: #ffffff;
+}
+
+
+
+
+

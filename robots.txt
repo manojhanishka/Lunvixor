@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /images/
+
+# But allow logo and OG image
+Allow: /images/logo (8).png
+

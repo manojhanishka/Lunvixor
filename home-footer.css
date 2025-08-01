@@ -1,0 +1,218 @@
+.footer {
+  background-color: #ffffff;
+
+  
+}
+
+.footer-heading {
+  font-weight: bold;
+  color: #343f52;
+  margin-bottom: 1rem;
+}
+
+
+.footer-text {
+  font-size: 17px;
+  color: #555;
+  text-align: justify;
+}
+
+.footer-socials a {
+  font-size: 22px;
+  margin-right: 14px;
+  color: #343f52;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-bottom {
+  background-color: #f7f8fa;
+}
+
+
+
+
+
+
+#footerAccordion .accordion-body {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+
+
+
+.portfolio-section .accordion-item {
+  border: none;
+  border-bottom: 1px solid #e0e0e0;
+  border-radius: 0;
+  background-color: #fff;
+}
+
+.portfolio-section .accordion-button {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  padding: 1.25rem 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  box-shadow: none;
+  border: none;
+}
+
+.portfolio-section .accordion-button:not(.collapsed) {
+  background-color: #f9f9f9;
+  color: #212529;
+}
+
+.portfolio-section .accordion-button:focus {
+  box-shadow: none;
+  border-color: transparent;
+}
+
+.portfolio-section .product-icon {
+  width: 36px;
+  height: 36px;
+  margin-right: 16px;
+}
+
+.portfolio-section .accordion-title-group {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.portfolio-section .product-title {
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+  font-family: 'Ubuntu';
+  font-size: 20px;
+  color: #343f52;
+  letter-spacing: 1.2px;
+}
+
+.portfolio-section .product-subtitle {
+  font-size: 0.875rem;
+  color: #6c757d;
+  font-weight: 400;
+  font-family: 'DM sans';
+  font-size: 18px;
+}
+
+.portfolio-section .accordion-body {
+  padding-left: 4.5rem;
+  padding-bottom: 1rem;
+  padding-top: 0;
+  font-size:16px;
+  font-family: 'DM sans';
+  color: #666;
+}
+.portfolio-section .accordion-button:not(.collapsed) {
+  background-color: transparent !important;
+  color: inherit;
+}
+
+
+.footer {
+  background-color: #ffffff;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.footer-tagline {
+   font-size: 17px;
+  font-family: 'Poppins';
+  font-weight: 500;
+color:#708dff;
+margin-bottom: 10px;
+}
+
+.footer-desc {
+   font-family: 'Readex Pro';
+  color: #666;
+  font-weight: 400;
+  font-size: 15px;
+letter-spacing: 0.4px;
+  line-height: 2;
+}
+
+.footer-heading, .accordion-header {
+font-family: 'Sora';
+  letter-spacing: 0.2px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #343f52;
+  /* margin-bottom: 12px; */
+  text-align: center;
+}
+
+.footer-link {
+
+   font-family: 'Readex Pro';
+  color: #666;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+letter-spacing: 0.4px;
+  text-decoration: none;
+  line-height: 2;
+
+}
+.detail{
+     font-family: 'Readex Pro';
+  color: #666;
+  font-weight: 400;
+  font-size: 14px;
+letter-spacing: 0.4px;
+  line-height: 1.4;
+  text-decoration: none;
+}
+
+.brand-name {
+  color: #fff;
+  font-family: 'Readex Pro', sans-serif;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+  text-align: center;
+}
+
+.footer-icon {
+  margin-right: 12px;
+  color: #333;
+  font-size: 22px;
+}
+
+
+
+.footer-socials {
+  margin-top: 12px;
+}
+
+.footer-bottom {
+    background-color: #66597c;
+}
+.sub-tagline-footer {
+  cursor: pointer;
+   font-family: 'Readex Pro';
+ color:#708dff;
+  font-weight: 500;
+  font-size: 14px;
+letter-spacing: 0.4px;
+text-decoration: underline;
+}
+
+#year{
+   color: #fff;
+
+  font-family: 'Sora';
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 0.4px;   
+}
+
+
+/* 
+#linkCollapse, #contactCollapse, #servicesCollapse, #overviewCollapse:empty{
+  display: none;
+} */

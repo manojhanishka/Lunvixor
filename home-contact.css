@@ -1,0 +1,134 @@
+#contact {
+  background-color: #fff;
+  padding: 60px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: row;
+  background: linear-gradient(to bottom, #f8ebf9, #ffffff);
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.05);
+  border: 1px solid #e0e0e0;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  width: 100%;
+}
+
+/* Left side: Image */
+.contact-image {
+  flex: 1;
+  min-width: 300px;
+  max-width: 50%;
+  height: 100%;
+  display: flex;
+}
+
+.contact-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Right side: Text */
+.contact-text {
+  flex: 1;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 300px;
+
+  
+}
+
+.section-tag {
+  /* text-transform: uppercase;
+  margin-bottom: 6px;
+  font-weight: 600; */
+      font-family: 'Sora';
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: #343f52;
+}
+
+.contact-heading {
+  /* font-size: 24px;
+  margin-bottom: 10px;
+  font-weight: bold; */
+      text-align: left;
+    font-family: 'Sora';
+    letter-spacing: 0.2px;
+    font-size: 29px;
+    font-weight: 600;
+    /* color: #343f52; */
+    color: #fd0ca4;
+}
+
+.contact-description {
+  /* font-size: 16px;
+  margin-bottom: 20px;
+  line-height: 1.5; */
+    
+  margin-top: 2px;
+text-align: justify;
+   font-family: 'Readex Pro';
+  color: #666;
+  font-weight: 400;
+  font-size: 16px;
+letter-spacing: 0.4px;
+  line-height: 2;
+}
+
+.contact-link {
+  color: #fd0ca4;
+  background-color: transparent;
+  font-family: 'Readex Pro', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.4px;
+  border: 2px solid #fd0ca4;
+  transition: all 0.3s ease;
+  width: fit-content;
+  padding: 10px 18px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.contact-link:hover {
+  background-color: #cd83da;
+  color: #fff;
+}
+
+/* Responsive for mobile/tablet */
+@media (max-width: 768px) {
+  .contact-container {
+    flex-direction: column;
+  }
+
+  .contact-image,
+  .contact-text {
+    max-width: 100%;
+  }
+
+  .contact-image img {
+    height: auto;
+    border-radius: 0;
+  }
+
+  .contact-text {
+    padding: 30px 20px;
+    text-align: center;
+    align-items: center;
+  }
+
+  .contact-link {
+    margin: 0 auto;
+  }
+}
