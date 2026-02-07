@@ -1,8 +1,4 @@
 User-agent: *
-Disallow: /images/
+Allow: /
 
-# But allow logo and OG image
-Allow: /images/logo (8).png
 Sitemap: https://lunvixor.in/sitemap.xml
-
-
